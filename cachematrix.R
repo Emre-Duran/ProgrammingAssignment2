@@ -25,7 +25,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## CThis function first check whether the inverse matrix calculated or not. If not calculates it and return the inverse matrix
+## This function first check whether the inverse matrix calculated or not. 
+## If not it calculate it and save in cache and returns it.
 
 cacheSolve <- function(x, ...) {
         
